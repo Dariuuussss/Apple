@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store — Apple</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #1d1d1f;
+            color: #f5f5f7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 920px;
+            padding: 0 20px;
+            margin: 0 auto;
+        }
+        .header a {
+            color: #e8e8ed;
+            text-decoration: none;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+        .logo {
+            width: 18px;
+            height: 22px;
+            object-fit: contain;
+        }
+        .search {
+            font-size: 20px;
+        }
+        .menu {
+            display: flex;
+            gap: 45px;
+            max-width: 920px;
+            min-height: 460px;
+            margin: 0 auto;
+            padding: 46px 20px 50px;
+        }
+        .shop {
+            width: 250px;
+        }
+        .quick {
+            width: 100px;
+        }
+        .special {
+            width: 190px;
+        }
+        .menu h2 {
+            font-size: 13px;
+            font-weight: normal;
+            margin: 0 0 17px;
+        }
+        .menu a {
+            display: block;
+            color: #f5f5f7;
+            text-decoration: none;
+        }
+        .shop a {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .quick a, .special a {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        @media (max-width: 760px) {
+            .header {
+                flex-wrap: wrap;
+                height: auto;
+                padding: 16px 20px;
+                justify-content: flex-start;
+            }
+            .menu {
+                flex-wrap: wrap;
+                gap: 28px;
+                padding-top: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="header">
+        <img src="apple.png" class="logo" alt="Apple"> </img> 
+        <a href="#">Store</a>
+        <a href="#">Mac</a>
+        <a href="#">iPad</a>
+        <a href="#">iPhone</a>
+        <a href="#">Watch</a>
+        <a href="#">Vision</a>
+        <a href="#">AirPods</a>
+        <a href="#">TV &amp; Home</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Accessories</a>
+        <a href="#">Support</a>
+        <span class="search">⌕</span>
+    </nav>
+    <main class="menu">
+        <div class="shop">
+            <h2>Shop</h2>
+            <a href="#">Shop the Latest</a>
+            <a href="#">Mac</a>
+            <a href="#">iPad</a>
+            <a href="#">iPhone</a>
+            <a href="#">Apple Watch</a>
+            <a href="#">Apple Vision Pro</a>
+            <a href="#">AirPods</a>
+            <a href="#">Accessories</a>
+        </div>
+        <div class="quick">
+            <h2>Quick Links</h2>
+            <a href="#">Find a Store</a>
+            <a href="#">Order Status</a>
+            <a href="#">Apple Upgrade</a>
+            <a href="#">Apple Trade In</a>
+            <a href="#">Financing</a>
+            <a href="#">Personal Setup</a>
+        </div>
+        <div class="special">
+            <h2>Shop Special Stores</h2>
+            <a href="#">Certified Refurbished</a>
+            <a href="#">Education</a>
+            <a href="#">Business</a>
+            <a href="#">Veterans and Military</a>
+            <a href="#">Government</a>
+        </div>
+    </main>
+</body>
+</html>
